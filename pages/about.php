@@ -1,12 +1,12 @@
 <?php 
-require "./templates/head.php"
+include "../templates/head.php" //head
 ?>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
         
         <!--  ====== header-area-start=======================================  -->
-        <?php require "./templates/header.php"?>
+        <?php include "../templates/header.php"?>
         <!--  header-area-end  -->
 
 
@@ -119,7 +119,7 @@ require "./templates/head.php"
                         <div class="row align-items-end about-page-image-wrapper mb-60">
                             <div class="col-xl-3  col-lg-3  col-md-3  col-sm-3 col-12">
                                 <div class="about-page-img1 ml-20">
-                                    <img class="w-100" src="images/about-page/about-page-img1.jpg" alt="">
+                                    <img class="w-100" src="/images/about-page/about-page-img1.jpg" alt="">
                                 </div>
                             </div><!-- /col -->
 
@@ -697,132 +697,4 @@ require "./templates/head.php"
         </main>
 
         <!-- ====== footer-area-start ============================================ -->
-        <footer> 
-            <div class="footer-area page-footer primary-bg-image pt-120">
-                <div class="footer-top pb-75">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-4  col-lg-4  col-md-12  col-sm-12 col-12">
-                                <div class="footer-widget f-about pb-30 pr-lg-5">
-                                    <div class="f-logo text-left mb-35">
-                                        <img src="images/logo/logo2.png" alt="larna">
-                                    </div><!-- /f-logo -->
-                                    <p>Aexerc itation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repr henderit in volu ptate velit esse cillum dolore </p>
-                                </div>
-                            </div><!-- /col -->
-                            <div class="col-xl-4 offset-lg-1  col-lg-4  col-md-7  col-sm-7 col-12">
-                                <div class="footer-widget f-info pb-30 pr-20 mt-15">
-                                    <h6 class="text-uppercase f-500 mb-30">Important links</h6>
-                                    <div class="d-flex">
-                                        <ul>
-                                            <li>
-                                                <a href="about.html" class="position-relative d-inline-block mb-1">All Courses</a>
-                                            </li>
-                                            <li>
-                                                <a href="about.html" class="position-relative d-inline-block mb-1">Instructors</a>
-                                            </li>
-                                            <li>
-                                                <a href="about.html" class="position-relative d-inline-block mb-2">Premium Plans</a>
-                                            </li>
-                                            <li>
-                                                <a href="about.html" class="position-relative d-inline-block mb-2">Blogs</a>
-                                            </li>
-                                            <li>
-                                                <a href="about.html" class="position-relative d-inline-block mb-2">Resourses</a>
-                                            </li>
-                                        </ul>
-                                        <ul class="pl-65">
-                                            <li>
-                                                <a href="about.html" class="position-relative d-inline-block mb-1">About Us</a>
-                                            </li>
-                                            <li>
-                                                <a href="about.html" class="position-relative d-inline-block mb-1">Careers</a>
-                                            </li>
-                                            <li>
-                                                <a href="about.html" class="position-relative d-inline-block mb-2">FAQ & Help</a>
-                                            </li>
-                                            <li>
-                                                <a href="about.html" class="position-relative d-inline-block mb-2">Certificate</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div><!-- /col -->
-                            <div class="col-xl-3  col-lg-3  col-md-5  col-sm-5 col-12 pr-xl-0">
-                                <div class="footer-widget f-adress mt-15">
-                                    <h6 class="text-uppercase f-500 mb-30">Connect with us</h6>
-                                    <ul class="social-link mt-15">
-                                        <li class="d-inline-block">
-                                            <a class="pr-15 d-inline-block transition-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a class="pr-15 d-inline-block transition-3" href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a class="pr-15 d-inline-block transition-3" href="#"><i class="fab fa-google-plus-g"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a class="d-inline-block transition-3" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                    </ul><!-- social-link -->
-                                </div>
-                            </div><!-- /col -->
-                        </div><!-- /row -->
-                    </div><!-- /container -->
-                </div>
-                <div class="footer-bottom footer-top-border1">
-                    <div class="container">
-                        <div class="copyright-area mt-20 pb-20">
-                            <div class="row align-items-center justify-content-between">
-                                <div class="col-xl-6  col-lg-5  col-md-12  col-sm-12 col-12">
-                                    <div class="copyright-text text-center text-lg-left mt-20 mb-20">
-                                        <p class="mb-0">All rights reserved 
-                                            <a href="https://themeforest.net/user/ethemestudio/portfolio" class="c-theme text-white f-500">eThemeStudio</a>  ©  2023
-                                        </p>
-                                    </div>
-                                </div><!-- /col -->
-                                <div class="col-xl-6  col-lg-7  col-md-12  col-sm-12 col-12">
-                                    <ul class="useful-link text-center text-lg-right mt-20">
-                                        <li class="d-inline-block mb-20">
-                                            <a href="about.html" class="secondary-color d-inline-block">Terms &amp; Condition</a>
-                                        </li>
-                                        <li class="d-inline-block pl-45 mb-20">
-                                            <a href="about.html" class="secondary-color d-inline-block">Privacy</a>
-                                        </li>
-                                        <li class="d-inline-block pl-45 mb-20">
-                                            <a href="about.html" class="secondary-color d-inline-block">Cookes</a>
-                                        </li>                                    
-                                    </ul><!-- social -->
-                                </div><!-- /col -->
-                            </div>
-                        </div><!-- /copyright-area -->
-                    </div><!-- /container -->
-                </div>
-            </div>
-        </footer>
-
-        <!-- back top -->
-        <div id="scroll" class="scroll-up">
-            <div class="top text-center"><span class="white-bg theme-color d-block"><i class="fa fa-arrow-alt-up"></i></span></div>
-        </div>
-
-        <!-- All js here -->
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="js/vendor/jquery-1.12.4.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.nice-select.min.js"></script>
-        <script src="js/isotope.pkgd.min.js"></script>
-        <script src="js/image-loaded.min.js"></script>
-        <script src="js/jquery.fancybox.min.js"></script>
-        <script src="js/waypoint.js"></script>
-        <script src="js/counterup-min.js"></script>
-        <script src="js/slick.min.js"></script>
-        <script src="js/tilt.jquery.min.js"></script>
-        <script src="js/countdown.min.js"></script>
-        <script src="js/aos.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/jquery.meanmenu.min.js"></script>
-        <script src="js/main.js"></script>
-    </body>
-</html>
+        <?php include "../templates/footer.php"?>

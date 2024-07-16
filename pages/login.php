@@ -1,11 +1,11 @@
 <?php 
-require "./templates/head.php"
+require "../templates/head.php"
 ?>
         
      
 
         <!--  ====== header-area-start=======================================  -->
-        <?php require "./templates/header.php"?>
+        <?php require "../templates/header.php"?>
         <!--  header-area-end  -->
          
 
@@ -92,11 +92,11 @@ require "./templates/head.php"
                             <div class="col-12 d-flex align-items-center justify-content-center">
                                 <div class="page-content text-center mt-110">
 
-                                    <h1 class="text-white mb-15 text-capitalize" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="150">Mi <span class="f-700">Cuenta</span></h1>
+                                    <h1 class="text-white mb-15 text-capitalize" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="150">My <span class="f-700">account</span></h1>
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb justify-content-center bg-transparent">
-                                        <li class="breadcrumb-item"><a class="text-white" href="index.html">Inicio</a></li>
-                                        <li class="breadcrumb-item active text-capitalize text-white" aria-current="page">Mi Cuenta</li>
+                                        <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item active text-capitalize text-white" aria-current="page">My account</li>
                                         </ol>
                                     </nav>
 
@@ -110,31 +110,40 @@ require "./templates/head.php"
             <!-- slider-area-end  -->
 
 
-            <!-- ====== login-area-start=========================================== -->
             <div class="login-register-area mt-160 mb-105 d-flex justify-content-center align-items-center">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                <div class="register-area mb-60 bg-light p-4 rounded">
-                    <h4 class="text-uppercase text-center mb-4">Sign up</h4>
+                <div class="login-area mb-60 bg-light p-4 rounded">
+                    <h4 class="text-uppercase text-center mb-4">Sign in</h4>
                     <form action="#">
-                        <div class="register-email mb-3">
-                            <input class="form-control mb-3" type="text" name="u-name" id="u-name" required placeholder="Username*">
-                            <input class="form-control mb-3" type="email" name="u-email" id="u-email" required placeholder="Email address *">
-                            <input class="form-control mb-3" type="password" name="r-pass" id="r-pass" required placeholder="Password">
-                        </div>
-                        <p class="text-muted small">Sus datos personales se utilizarán para respaldar su experiencia en este sitio web, para administrar el acceso a su cuenta y para otros fines descritos en nuestra <a href="#" class="theme-color theme-hover">Política de Privacidad</a></p>
-                        <div class="my-btn">
-                            <button class="btn btn-primary btn-block text-uppercase" type="submit" name="submit">Sign up</button>
+                        <div class="login-form mt-4">
+                            <div class="form-group">
+                                <input class="form-control mb-3" type="email" name="inputEmail" id="inputEmail" required placeholder="Username or email address *">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control mb-3" type="password" name="l-pass" id="l-pass" required placeholder="Password">
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="rememberMe">
+                                    <label class="form-check-label" for="rememberMe">Recordarme</label>
+                                </div>
+                                <div>
+                                    <a href="login.html" class="text-primary">Forgot Password?</a>
+                                </div>
+                            </div>
+                            <div class="form-group mt-4">
+                                <button class="btn btn-primary btn-block text-uppercase" type="submit" name="submit">Sign In</button>
+                            </div>
                         </div>
                     </form>
                 </div>
             </div><!-- /col -->
         </div><!-- /row -->
     </div><!-- /container -->
-</div>
-<!-- /login-area -->
-            <!-- login-area-end -->
+</div><!-- /login-register-area -->
+
 
 
 
@@ -144,4 +153,4 @@ require "./templates/head.php"
 
         <!-- ====== footer-area-start ============================================ -->
         
-   <?php require "./templates/footer.php"?>  
+   <?php require "../templates/footer.php"?>  

@@ -1,6 +1,6 @@
 <?php
 ?>
-
+ 
 <header>
     <div id="header-sticky" class="transparent-header header-area home2 home4 white-color-header">
         <div class="header">
@@ -8,31 +8,31 @@
                 <div class="row align-items-center justify-content-between position-relative">
                     <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5 col-6">
                         <div class="logo">
-                            <a href="index.php" class="d-block"><img src="images/ImagesNews/logo_ecatas.png" alt="Larna"></a>
+                            <a href="/" class="d-block"><img src="../images/ImagesNews/logo_ecatas.png" alt="ecatas Logo"></a>
                         </div>
                     </div><!-- /col -->
                     <div class="col-xl-6 col-lg-7 col-md-1 col-sm-1 col-1 pl-lg-4 d-none d-lg-flex position-static">
                         <div class="main-menu">
                             <nav id="mobile-menu">
                                 <ul class="d-block">
-                                    <li class="full-mega-menu-position"><a class="active" href="index.php">Inicio</a>
+                                    <li class="full-mega-menu-position"><a class="active" href="/">Inicio</a>
 
                                     </li><!-- /Home -->
 
-                                    <li><a href="about.php">Sobre Nosotros</a>
+                                    <li><a href="about">Sobre Nosotros</a>
 
                                     </li>
 
                                     <li class="full-mega-menu-position">
-                                        <a  ">Bodegas</a>
+                                        <a>Bodegas</a>
                                         <ul class="mega-menu full-mega-menu full-mega-menu1 d-lg-flex white-bg pt-35 pb-25 pl-30 pr-0 ml-0">
                                         <li class="ml-xl-5 ml-lg-4 pl-xl-4">
-                                                <a href="bodegas.php" class="mt-4 mt-lg-0">
+                                                <a href="bodegas" class="mt-4 mt-lg-0">
                                                     <span class="d-block f-500 main-color mb-10">Bodegas</span>
                                                 </a>
                                             </li>
                                             <li class="ml-xl-5 ml-lg-4 pl-xl-4">
-                                                <a href="enoturismo.php" class="mt-4 mt-lg-0">
+                                                <a href="enoturismo" class="mt-4 mt-lg-0">
                                                     <span class="d-block f-500 main-color mb-10">Enoturismo</span>
                                                 </a>
                                             </li>
@@ -42,7 +42,7 @@
 
 
 
-                                    <li><a href="contact.php">Contacto</a>
+                                    <li><a href="contact">Contacto</a>
 
                                     </li><!-- /Contact -->
                                 </ul>
@@ -53,13 +53,13 @@
                         <div class="header-right d-flex align-items-center justify-content-end">
                             <ul class="header-login mr-15 d-none d-sm-block">
                                 <li>
-                                    <a class="d-inline-block main-color" href="login.php" data-toggle="tooltip" data-selector="true" data-placement="bottom" title="Login / Register">
+                                    <a class="d-inline-block main-color" href="login" data-toggle="tooltip" data-selector="true" data-placement="bottom" title="Login / Register">
                                         Ingresar</a>
                                 </li>
                             </ul><!-- /header-login -->
 
                             <div class="my-btn d-none d-sm-block">
-                                <a href="login.php" class="btn white-bg">Registrarse</a>
+                                <a href="registro" class="btn white-bg">Registrarse</a>
                             </div><!-- /Sign Up -->
 
                             <div class="header-search ml-15 position-relative d-none d-md-block d-lg-none d-lg-block" data-toggle="tooltip" data-selector="true" data-placement="bottom" title="Search">

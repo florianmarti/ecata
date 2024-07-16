@@ -1,10 +1,11 @@
 <?php 
-require "./templates/head.php"
+require "templates/head.php"
 ?>
-         
+          
      
         <!--  ====== header-area-start=======================================  -->
          <?php require "./templates/header.php"?>
+        
         <!--  header-area-end  -->
 
              <main>
