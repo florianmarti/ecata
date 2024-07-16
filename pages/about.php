@@ -86,7 +86,7 @@ include "../templates/head.php" //head
             <!-- ======other-page-area-start=========================================== -->
             <div class="other-page-area">
                 <div class="page-height  primary-overlay d-flex align-items-center position-relative">
-                    <div class="other-page-bg position-absolute w-100 h-100 bg-no-repeat bg-cover z-index-1" data-background="images/about-page/about-page-hero.jpg"></div><!-- home2 slider bg -->
+                    <div class="other-page-bg position-absolute w-100 h-100 bg-no-repeat bg-cover z-index-1" data-background="/images/about-page/about-page-hero.jpg"></div><!-- home2 slider bg -->
 
                     <div class="container">
                         <div class="row">
@@ -125,13 +125,13 @@ include "../templates/head.php" //head
 
                             <div class="col-xl-5  col-lg-5  col-md-5  col-sm-5 col-12">
                                 <div class="about-page-img2 mb-95">
-                                    <img class="w-100" src="images/about-page/about-page-img2.jpg" alt="">
+                                    <img class="w-100" src="/images/about-page/about-page-img2.jpg" alt="">
                                 </div>
                             </div><!-- /col -->
 
                             <div class="col-xl-4  col-lg-4  col-md-4  col-sm-4 col-12">
                                 <div class="about-page-img3 mb-25">
-                                    <img class="w-100" src="images/about-page/about-page-img3.jpg" alt="">
+                                    <img class="w-100" src="/images/about-page/about-page-img3.jpg" alt="">
                                 </div>
                             </div><!-- /col -->
                         </div><!-- /row -->
@@ -160,7 +160,7 @@ include "../templates/head.php" //head
             
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="about-signature mt-15">
-                                            <img class="pr-45" src="images/about/signature.png" alt="Jane Doe">
+                                            <img class="pr-45" src="/images/about/signature.png" alt="Jane Doe">
                                             <p class="signature f-500 text-uppercase main-color d-inline-block mb-0 mr-20">john Doe</p><!-- /signature -->
                                             <p class="signature-info d-inline-block mb-0">Founder & CEO</p><!-- /signature -->
                                         </div><!-- /signature -->
@@ -239,7 +239,7 @@ include "../templates/head.php" //head
                         <div class="col-xl-3  col-lg-3  col-md-6  col-sm-6 col-12 ">
                             <div class="home3-single-fact text-center tilt">
                                 <div class="fact-icon mb-25">
-                                    <img src="images/icon/hm1-fact-icon3.png" alt="">
+                                    <img src="/images/icon/hm1-fact-icon3.png" alt="">
                                 </div><!-- /fact-icon -->
                                 <div class="d-flex align-items-center justify-content-center">
                                     <span class="main-color f-500 d-inline-block counter">50000</span>
@@ -252,7 +252,7 @@ include "../templates/head.php" //head
                         <div class="col-xl-3  col-lg-3  col-md-6  col-sm-6 col-12">
                             <div class="home3-single-fact text-center tilt">
                                 <div class="fact-icon mb-25">
-                                    <img src="images/icon/hm1-fact-icon1.png" alt="">
+                                    <img src="/images/icon/hm1-fact-icon1.png" alt="">
                                 </div><!-- /fact-icon -->
                                 <div class="d-flex align-items-center justify-content-center">
                                     <span class="main-color f-500 d-inline-block counter">350</span>
@@ -265,7 +265,7 @@ include "../templates/head.php" //head
                         <div class="col-xl-3  col-lg-3  col-md-6  col-sm-6 col-12 ">
                             <div class="home3-single-fact text-center tilt">
                                 <div class="fact-icon mb-25">
-                                    <img src="images/icon/hm1-fact-icon4.png" alt="">
+                                    <img src="/images/icon/hm1-fact-icon4.png" alt="">
                                 </div><!-- /fact-icon -->
                                 <div class="d-flex align-items-center justify-content-center">
                                     <span class="main-color f-500 d-inline-block counter">10000</span>
@@ -297,7 +297,7 @@ include "../templates/head.php" //head
                             <div class="single-instructor-wrapper position-relative">
                                 <div class="single-instructor over-hidden d-md-flex align-items-end mb-60">
                                     <div class="instructor-img position-relative">
-                                        <img class="w-100" src="images/about-page/about-page-instructor1.jpg" alt="instructor-image01">
+                                        <img class="w-100" src="/images/about-page/about-page-instructor1.jpg" alt="instructor-image01">
                                         <ul class="social-link text-center position-absolute">
                                             <li class="d-inline-block">
                                                 <a class="text-center pl-10 pr-10 d-inline-block transition-3" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -322,7 +322,7 @@ include "../templates/head.php" //head
                             <div class="single-instructor-wrapper position-relative">
                                 <div class="single-instructor over-hidden d-md-flex align-items-end mb-60">
                                     <div class="instructor-img position-relative">
-                                        <img class="w-100" src="images/about-page/about-page-instructor2.jpg" alt="instructor-image02">
+                                        <img class="w-100" src="/images/about-page/about-page-instructor2.jpg" alt="instructor-image02">
                                         <ul class="social-link text-center position-absolute">
                                             <li class="d-inline-block">
                                                 <a class="text-center pl-10 pr-10 d-inline-block transition-3" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -347,7 +347,7 @@ include "../templates/head.php" //head
                             <div class="single-instructor-wrapper position-relative">
                                 <div class="single-instructor over-hidden d-md-flex align-items-end mb-60">
                                     <div class="instructor-img position-relative">
-                                        <img class="w-100" src="images/about-page/about-page-instructor3.jpg" alt="instructor-image03">
+                                        <img class="w-100" src="/images/about-page/about-page-instructor3.jpg" alt="instructor-image03">
                                         <ul class="social-link text-center position-absolute">
                                             <li class="d-inline-block">
                                                 <a class="text-center pl-10 pr-10 d-inline-block transition-3" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -372,7 +372,7 @@ include "../templates/head.php" //head
                             <div class="single-instructor-wrapper position-relative">
                                 <div class="single-instructor over-hidden d-md-flex align-items-end mb-60">
                                     <div class="instructor-img position-relative">
-                                        <img class="w-100" src="images/about-page/about-page-instructor4.jpg" alt="instructor-image04">
+                                        <img class="w-100" src="/images/about-page/about-page-instructor4.jpg" alt="instructor-image04">
                                         <ul class="social-link text-center position-absolute">
                                             <li class="d-inline-block">
                                                 <a class="text-center pl-10 pr-10 d-inline-block transition-3" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -397,7 +397,7 @@ include "../templates/head.php" //head
                             <div class="single-instructor-wrapper position-relative">
                                 <div class="single-instructor over-hidden d-md-flex align-items-end mb-60">
                                     <div class="instructor-img position-relative">
-                                        <img class="w-100" src="images/about-page/about-page-instructor5.jpg" alt="instructor-image05">
+                                        <img class="w-100" src="/images/about-page/about-page-instructor5.jpg" alt="instructor-image05">
                                         <ul class="social-link text-center position-absolute">
                                             <li class="d-inline-block">
                                                 <a class="text-center pl-10 pr-10 d-inline-block transition-3" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -422,7 +422,7 @@ include "../templates/head.php" //head
                             <div class="single-instructor-wrapper position-relative">
                                 <div class="single-instructor over-hidden d-md-flex align-items-end mb-60">
                                     <div class="instructor-img position-relative">
-                                        <img class="w-100" src="images/about-page/about-page-instructor6.jpg" alt="instructor-image06">
+                                        <img class="w-100" src="/images/about-page/about-page-instructor6.jpg" alt="instructor-image06">
                                         <ul class="social-link text-center position-absolute">
                                             <li class="d-inline-block">
                                                 <a class="text-center pl-10 pr-10 d-inline-block transition-3" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -458,7 +458,7 @@ include "../templates/head.php" //head
 
             <!-- ====== testimonial-area-start=========================================== -->
             <div class="testimonial-area about-page-testimonial home3 position-relative">
-                <div class="testimonial-bg position-absolute bg-no-repeat bg-cover h-100" data-background="images/testimonial/home3-testimonial-bg.jpg"></div><!-- /testimonial bg -->
+                <div class="testimonial-bg position-absolute bg-no-repeat bg-cover h-100" data-background="/images/testimonial/home3-testimonial-bg.jpg"></div><!-- /testimonial bg -->
                     <div class="container">
                         <div class="row justify-content-lg-end home3-testimonial-padding pt-110">
                             <div class="col-xl-5  col-lg-6 col-md-9 col-sm-12 col-12 pl-lg-0">
@@ -474,7 +474,7 @@ include "../templates/head.php" //head
                                 <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-12">
                                     <div class="single-testimonial bg-white text-center pt-60 pb-60 pl-50 pr-50 mb-20 transition5">
                                         <div class="quit d-inline-block mb-22">
-                                            <img src="images/testimonial/quote-icon.png" alt="icon">
+                                            <img src="/images/testimonial/quote-icon.png" alt="icon">
                                         </div><!-- /quit -->
 
                                         <h3 class="mb-12">High Quality Education</h3>
@@ -489,7 +489,7 @@ include "../templates/head.php" //head
                                         <div class="testi-info mt-30 d-flex align-items-center justify-content-center">
                                             <div class="d-flex">
                                                 <div class="testi-avatar pr-20 rounded-circle">
-                                                    <img class="rounded-circle" src="images/testimonial/hm3-author-img2.jpg" alt="image">
+                                                    <img class="rounded-circle" src="/images/testimonial/hm3-author-img2.jpg" alt="image">
                                                 </div><!-- /testi-avatar -->
                                                 <div class="avatar-info text-left">
                                                     <h6 class="f-500 text-uppercase mb-0">Thomas Anderson</h6>
@@ -503,7 +503,7 @@ include "../templates/head.php" //head
                                 <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-12">
                                     <div class="single-testimonial bg-white text-center pt-60 pb-60 pl-50 pr-50 mb-20 transition5">
                                         <div class="quit d-inline-block mb-22">
-                                            <img src="images/testimonial/quote-icon.png" alt="icon">
+                                            <img src="/images/testimonial/quote-icon.png" alt="icon">
                                         </div><!-- /quit -->
 
                                         <h3 class="mb-12">Very Helpful Service</h3>
@@ -518,7 +518,7 @@ include "../templates/head.php" //head
                                         <div class="testi-info mt-30 d-flex align-items-center justify-content-center">
                                             <div class="d-flex">
                                                 <div class="testi-avatar pr-20 rounded-circle">
-                                                    <img class="rounded-circle" src="images/testimonial/hm3-author-img3.jpg" alt="image">
+                                                    <img class="rounded-circle" src="/images/testimonial/hm3-author-img3.jpg" alt="image">
                                                 </div><!-- /testi-avatar -->
                                                 <div class="avatar-info text-left">
                                                     <h6 class="f-500 text-uppercase mb-0">Thomas Anderson</h6>
@@ -532,7 +532,7 @@ include "../templates/head.php" //head
                                 <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-12">
                                     <div class="single-testimonial bg-white text-center pt-60 pb-60 pl-50 pr-50 mb-20 transition5">
                                         <div class="quit d-inline-block mb-22">
-                                            <img src="images/testimonial/quote-icon.png" alt="icon">
+                                            <img src="/images/testimonial/quote-icon.png" alt="icon">
                                         </div><!-- /quit -->
 
                                         <h3 class="mb-12">High Quality Education</h3>
@@ -547,7 +547,7 @@ include "../templates/head.php" //head
                                         <div class="testi-info mt-30 d-flex align-items-center justify-content-center">
                                             <div class="d-flex">
                                                 <div class="testi-avatar pr-20 rounded-circle">
-                                                    <img class="rounded-circle" src="images/testimonial/hm3-author-img2.jpg" alt="image">
+                                                    <img class="rounded-circle" src="/images/testimonial/hm3-author-img2.jpg" alt="image">
                                                 </div><!-- /testi-avatar -->
                                                 <div class="avatar-info text-left">
                                                     <h6 class="f-500 text-uppercase mb-0">Thomas Anderson</h6>
@@ -561,7 +561,7 @@ include "../templates/head.php" //head
                                 <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-12">
                                     <div class="single-testimonial bg-white text-center pt-60 pb-60 pl-50 pr-50 mb-20 transition5">
                                         <div class="quit d-inline-block mb-22">
-                                            <img src="images/testimonial/quote-icon.png" alt="icon">
+                                            <img src="/images/testimonial/quote-icon.png" alt="icon">
                                         </div><!-- /quit -->
 
                                         <h3 class="mb-12">Very Helpful Service</h3>
@@ -576,7 +576,7 @@ include "../templates/head.php" //head
                                         <div class="testi-info mt-30 d-flex align-items-center justify-content-center">
                                             <div class="d-flex">
                                                 <div class="testi-avatar pr-20 rounded-circle">
-                                                    <img class="rounded-circle" src="images/testimonial/hm3-author-img3.jpg" alt="image">
+                                                    <img class="rounded-circle" src="/images/testimonial/hm3-author-img3.jpg" alt="image">
                                                 </div><!-- /testi-avatar -->
                                                 <div class="avatar-info text-left">
                                                     <h6 class="f-500 text-uppercase mb-0">Thomas Anderson</h6>
@@ -590,7 +590,7 @@ include "../templates/head.php" //head
                                 <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-12">
                                     <div class="single-testimonial bg-white text-center pt-60 pb-60 pl-50 pr-50 mb-20 transition5">
                                         <div class="quit d-inline-block mb-22">
-                                            <img src="images/testimonial/quote-icon.png" alt="icon">
+                                            <img src="/images/testimonial/quote-icon.png" alt="icon">
                                         </div><!-- /quit -->
 
                                         <h3 class="mb-12">High Quality Education</h3>
@@ -604,7 +604,7 @@ include "../templates/head.php" //head
                                         <div class="testi-info mt-30 d-flex align-items-center justify-content-center">
                                             <div class="d-flex">
                                                 <div class="testi-avatar pr-20 rounded-circle">
-                                                    <img class="rounded-circle" src="images/testimonial/hm3-author-img2.jpg" alt="image">
+                                                    <img class="rounded-circle" src="/images/testimonial/hm3-author-img2.jpg" alt="image">
                                                 </div><!-- /testi-avatar -->
                                                 <div class="avatar-info text-left">
                                                     <h6 class="f-500 text-uppercase mb-0">Thomas Anderson</h6>
@@ -618,7 +618,7 @@ include "../templates/head.php" //head
                                 <div class="col-xl-4 col-lg-4 col-md-6  col-sm-12 col-12">
                                     <div class="single-testimonial bg-white text-center pt-60 pb-60 pl-50 pr-50 mb-20 transition5">
                                         <div class="quit d-inline-block mb-22">
-                                            <img src="images/testimonial/quote-icon.png" alt="icon">
+                                            <img src="/images/testimonial/quote-icon.png" alt="icon">
                                         </div><!-- /quit -->
 
                                         <h3 class="mb-12">Very Helpful Service</h3>
@@ -633,7 +633,7 @@ include "../templates/head.php" //head
                                         <div class="testi-info mt-30 d-flex align-items-center justify-content-center">
                                             <div class="d-flex">
                                                 <div class="testi-avatar pr-20 rounded-circle">
-                                                    <img class="rounded-circle" src="images/testimonial/hm3-author-img3.jpg" alt="image">
+                                                    <img class="rounded-circle" src="/images/testimonial/hm3-author-img3.jpg" alt="image">
                                                 </div><!-- /testi-avatar -->
                                                 <div class="avatar-info text-left">
                                                     <h6 class="f-500 text-uppercase mb-0">Thomas Anderson</h6>
@@ -659,32 +659,32 @@ include "../templates/head.php" //head
                             <div class="row align-items-center justify-content-center">
                                 <div class="col-xl-2  col-lg-2  col-md-4  col-sm-4 col-4 text-center">
                                     <div class="single-brand mb-30 d-block text-center">
-                                        <img class="d-inline-block" src="images/brand/brand-logo1.png" alt="image">
+                                        <img class="d-inline-block" src="/images/brand/brand-logo1.png" alt="image">
                                     </div>
                                 </div><!-- /col -->
                                 <div class="col-xl-2  col-lg-2  col-md-4  col-sm-4 col-4 text-center">
                                     <div class="single-brand mb-30 d-block text-center">
-                                        <img class="d-inline-block" src="images/brand/brand-logo2.png" alt="image">
+                                        <img class="d-inline-block" src="/images/brand/brand-logo2.png" alt="image">
                                     </div>
                                 </div><!-- /col -->
                                 <div class="col-xl-2  col-lg-2  col-md-4  col-sm-4 col-4 text-center">
                                     <div class="single-brand mb-30 d-block text-center">
-                                        <img class="d-inline-block" src="images/brand/brand-logo3.png" alt="image">
+                                        <img class="d-inline-block" src="/images/brand/brand-logo3.png" alt="image">
                                     </div>
                                 </div><!-- /col -->
                                 <div class="col-xl-2  col-lg-2  col-md-4  col-sm-4 col-4 text-center">
                                     <div class="single-brand mb-30 d-block text-center">
-                                        <img class="d-inline-block" src="images/brand/brand-logo4.png" alt="image">
+                                        <img class="d-inline-block" src="/images/brand/brand-logo4.png" alt="image">
                                     </div>
                                 </div><!-- /col -->
                                 <div class="col-xl-2  col-lg-2  col-md-4  col-sm-4 col-4 text-center">
                                     <div class="single-brand mb-30 d-block text-center">
-                                        <img class="d-inline-block" src="images/brand/brand-logo5.png" alt="image">
+                                        <img class="d-inline-block" src="/images/brand/brand-logo5.png" alt="image">
                                     </div>
                                 </div><!-- /col -->
                                 <div class="col-xl-2  col-lg-2  col-md-4  col-sm-4 col-4 text-center">
                                     <div class="single-brand mb-30 d-block text-center">
-                                        <img class="d-inline-block" src="images/brand/brand-logo6.png" alt="image">
+                                        <img class="d-inline-block" src="/images/brand/brand-logo6.png" alt="image">
                                     </div>
                                 </div><!-- /col -->
                             </div><!-- /row -->

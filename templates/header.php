@@ -19,7 +19,7 @@
 
                                     </li><!-- /Home -->
 
-                                    <li><a href="about">Sobre Nosotros</a>
+                                    <li><a href="../pages/about.php">Sobre Nosotros</a>
 
                                     </li>
 
@@ -27,12 +27,12 @@
                                         <a>Bodegas</a>
                                         <ul class="mega-menu full-mega-menu full-mega-menu1 d-lg-flex white-bg pt-35 pb-25 pl-30 pr-0 ml-0">
                                         <li class="ml-xl-5 ml-lg-4 pl-xl-4">
-                                                <a href="bodegas" class="mt-4 mt-lg-0">
+                                                <a href="../pages/bodegas.php" class="mt-4 mt-lg-0">
                                                     <span class="d-block f-500 main-color mb-10">Bodegas</span>
                                                 </a>
                                             </li>
                                             <li class="ml-xl-5 ml-lg-4 pl-xl-4">
-                                                <a href="enoturismo" class="mt-4 mt-lg-0">
+                                                <a href="../pages/enoturismo.php" class="mt-4 mt-lg-0">
                                                     <span class="d-block f-500 main-color mb-10">Enoturismo</span>
                                                 </a>
                                             </li>
@@ -42,7 +42,7 @@
 
 
 
-                                    <li><a href="contact">Contacto</a>
+                                    <li><a href="../pages/contact.php">Contacto</a>
 
                                     </li><!-- /Contact -->
                                 </ul>
@@ -53,13 +53,13 @@
                         <div class="header-right d-flex align-items-center justify-content-end">
                             <ul class="header-login mr-15 d-none d-sm-block">
                                 <li>
-                                    <a class="d-inline-block main-color" href="login" data-toggle="tooltip" data-selector="true" data-placement="bottom" title="Login / Register">
+                                    <a class="d-inline-block main-color" href="../pages/login.php" data-toggle="tooltip" data-selector="true" data-placement="bottom" title="Login / Register">
                                         Ingresar</a>
                                 </li>
                             </ul><!-- /header-login -->
 
                             <div class="my-btn d-none d-sm-block">
-                                <a href="registro" class="btn white-bg">Registrarse</a>
+                                <a href="../pages/registro.php" class="btn white-bg">Registrarse</a>
                             </div><!-- /Sign Up -->
 
                             <div class="header-search ml-15 position-relative d-none d-md-block d-lg-none d-lg-block" data-toggle="tooltip" data-selector="true" data-placement="bottom" title="Search">

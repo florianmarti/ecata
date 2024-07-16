@@ -51,10 +51,10 @@
                                 <div class="footer-widget f-about pb-30">
                                     
                                     <div class="f-logo text-left mb-35">
-                                        <img src="/images/logo/logo.png" alt="larna">
+                                        <img src="/images/ImagesNews/logo_ecatas.png" alt="larna">
                                     </div><!-- /f-logo -->
 
-                                    <p>Aexerc itation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repr henderit in volu ptate velit esse cillum dolore </p>
+                                    <p>Esta empresa es totalmente independiente de cualquier empresa productora y comercializadora por lo que las opiniones son libres y con el único objeto de ayudar tanto al sector como a los apasionados por el vino. </p>
 
                                     <ul class="social-link mt-15">
                                         <li class="d-inline-block">
@@ -78,22 +78,19 @@
                                     <div class="d-flex">
                                         <ul>
                                             <li>
-                                                <a href="about.html" class="position-relative d-inline-block mb-1">All Courses</a>
+                                                <a href="about.php" class="position-relative d-inline-block mb-1">Nosotros</a>
                                             </li>
                                             <li>
-                                                <a href="about.html" class="position-relative d-inline-block mb-1">Instructors</a>
+                                                <a href="enoturismo.php" class="position-relative d-inline-block mb-1">Enoturismo</a>
                                             </li>
                                             <li>
-                                                <a href="about.html" class="position-relative d-inline-block mb-2">Premium Plans</a>
+                                                <a href="bodegas.php" class="position-relative d-inline-block mb-2">Bodegas</a>
                                             </li>
                                             <li>
-                                                <a href="about.html" class="position-relative d-inline-block mb-2">Blogs</a>
+                                                <a href="contact.php" class="position-relative d-inline-block mb-2">Contacto</a>
                                             </li>
-                                            <li>
-                                                <a href="about.html" class="position-relative d-inline-block mb-2">Resourses</a>
-                                            </li>
-                                        </ul>
-                                        <ul class="pl-65">
+                                           </ul>
+                                        <!-- <ul class="pl-65">
                                             <li>
                                                 <a href="about.html" class="position-relative d-inline-block mb-1">About Us</a>
                                             </li>
@@ -106,7 +103,7 @@
                                             <li>
                                                 <a href="about.html" class="position-relative d-inline-block mb-2">Certificate</a>
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                     </div>
                                 </div>
                             </div><!-- /col -->
